@@ -1,0 +1,42 @@
+image: node:14.15.1
+
+services:
+  - mongo
+
+variables:
+  PORT: "5000"
+  MONGODB_URL: "mongodb://mongo:27017/node-boilerplate"
+  JWT_SECRET: "thisisasamplesecret"
+  JWT_ACCESS_EXPIRATION_MINUTES: "30"
+  JWT_REFRESH_EXPIRATION_DAYS: "30"
+
+stages:
+  - build
+  - lint
+  - test
+
+cache:
+  paths:
+    - node_modules/
+    - client/node_modules
+
+install_dependencies:
+  stage: build
+  script: yarn build
+  artifacts:
+    paths:
+      - node_modules/
+      - client/node_modules
+
+lint:
+  stage: lint
+  script:
+    - yarn lint
+    - yarn prettier
+
+test:
+  stage: test
+  script:
+    - yarn test:server
+    - yarn test:client
+

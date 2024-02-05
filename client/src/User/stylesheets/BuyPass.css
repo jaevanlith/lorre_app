@@ -1,0 +1,53 @@
+.center-buy {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.center-buy input {
+  margin-left: 0px;
+}
+.center-buy button {
+  margin-left: 0px;
+}
+.center-buy label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type='file']::-webkit-file-upload-button {
+  border: solid 2px transparent;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #db4747 0%, #e98f47 51%, #db4747 100%),
+    linear-gradient(to right, #db4747 0%, #e98f47 51%, #db4747 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #2e2e2e inset;
+  color: white;
+}
+
+.passes-buy input {
+  width: auto;
+  display: inline;
+  padding-bottom: 5px;
+}
+.passes-buy label {
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.error-buy {
+  border: 1px solid;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle-buy {
+  display: inline;
+}
+.error-text-buy {
+  display: inline;
+}

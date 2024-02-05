@@ -1,0 +1,108 @@
+.center-ads {
+  width: 210px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.center-ads input {
+  margin-left: 0px;
+  margin: 0px;
+}
+.center-ads button {
+  margin-left: 0px;
+}
+
+.back-ads {
+  width: 36px;
+  float: left;
+  margin-top: 0px;
+}
+.cancle-ads {
+  width: 36px;
+  float: left;
+  margin-top: 0px;
+}
+.icon-ads {
+  width: 36px;
+  display: inline-block;
+}
+
+.info-ads {
+  height: 60px;
+}
+.info-ads p {
+  margin-top: 3px;
+  color: #666666;
+}
+
+.genders-ads input {
+  width: auto;
+  display: inline;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+.g-label-ads {
+  margin-bottom: 2px;
+}
+
+.genders-ads input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #2e2e2e;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #db4747;
+}
+
+.genders-ads input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #db4747;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #db4747;
+}
+
+.info-ads option {
+  background-color: #181818;
+  color: white;
+}
+
+button:disabled,
+button[disabled] {
+  color: #666666;
+}
+
+.error-ads {
+  width: 180px;
+  margin: 0px;
+  border: 1px solid;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle-ads {
+  display: inline;
+}
+.error-text-ads {
+  display: inline;
+}
+
+.account-details-select {
+  margin-top: 0px;
+  margin-left: 0px;
+}

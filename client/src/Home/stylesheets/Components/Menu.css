@@ -1,0 +1,20 @@
+.menu-status-box {
+  float: right;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.we-zijn {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.menu-status {
+  font-size: 24px;
+  margin-top: -15px;
+  font-weight: bold;
+}
+
+.menu-status-err {
+  float: right;
+}

@@ -1,0 +1,40 @@
+.manipulate-btn {
+  font-size: 70px;
+  margin: 0;
+  width: 50%;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+}
+
+.incr-btn {
+  border-radius: 0 0 3px 0;
+}
+
+.decr-btn {
+  border-radius: 0 0 0 3px;
+}
+
+.circle-progress-container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.visitor-count {
+  font-family: "Louis George Cafe";
+  font-size: 100px;
+  margin-top: -20px;
+}
+
+.visitor-label {
+  font-size: 24px;
+  margin-top: -110px;
+}
+
+.manipulator-msg {
+  color: #db4747;
+  text-align: center;
+  margin-top: -15px;
+}

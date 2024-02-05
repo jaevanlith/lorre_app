@@ -1,0 +1,128 @@
+.form-container {
+  width: 230px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -10px;
+}
+
+.mobile-form-container {
+  width: 100%;
+  margin-top: -10px;
+}
+
+.multiselect-input {
+  margin: 10px;
+  width: calc(100% - 30px);
+  border-bottom: 1px solid #db4747;
+  color: #7e7e7e;
+  padding: 5px;
+}
+
+.multiselect-icon {
+  font-size: 18px;
+  float: right;
+  position: relative;
+  top: 2px;
+}
+
+.multiselect-dropdown {
+  width: calc(100% - 20px);
+  background-color: #181818;
+  position: absolute;
+  z-index: 1;
+  margin-left: 10px;
+  margin-top: -10px;
+  border-radius: 0 0 3px 3px;
+}
+
+.multiselect-check-icon {
+  margin: 10px;
+}
+
+.multiselect-label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.charts-container {
+  display: inline-block;
+  width: calc(100% - 250px);
+  margin-left: 240px;
+}
+
+.mobile-charts-container {
+  width: calc(100% - 20px);
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.chart-title-box {
+  border-radius: 3px 3px 0 0;
+  background-color: black;
+}
+
+.chart-title {
+  font-size: 30px;
+  margin-top: -10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.chart-box {
+  border-radius: 0 0 3px 3px;
+  background-color: black;
+  margin-top: -27px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.time-radio-container input {
+  width: auto;
+  display: inline;
+}
+
+.time-radio-interval {
+  margin-left: 40px;
+}
+
+.interval-label-start {
+  margin: 10px;
+  position: relative;
+  top: 5px;
+}
+
+.interval-label-end {
+  margin: 10px;
+  position: relative;
+  top: 25px;
+}
+
+.interval-date {
+  float: right;
+  width: calc(100% - 90px);
+  margin-top: -5px;
+}
+
+.analytics-btn {
+  width: calc(100% - 20px);
+}
+
+.error-analiytics {
+  border: 1px solid;
+  margin-left: 240px;
+  width: 200px;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle-analytics {
+  display: inline;
+}
+.error-text-analytics {
+  display: inline;
+}
