@@ -1,0 +1,51 @@
+.menu-admin {
+  position: relative;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 10px;
+  top: -18px;
+}
+
+.menu-logo {
+  width: 40px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.menu-logout-icon {
+  float: right;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.menu-mobile-logout-icon {
+  float: right;
+  margin: 15px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.menu-logout-icon:hover {
+  background: -webkit-linear-gradient(#db4747, #e98f47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu-tool-icon {
+  float: right;
+  margin: 10px;
+  color: white;
+  font-size: 28px;
+}
+
+.menu-mobile-tool-icon {
+  float: right;
+  margin: 15px 10px 10px 10px;
+  color: white;
+  font-size: 28px;
+}
+
+.menu-tool-icon:hover {
+  background: -webkit-linear-gradient(#db4747, #e98f47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

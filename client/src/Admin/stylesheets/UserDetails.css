@@ -1,0 +1,85 @@
+.user-detail-container {
+  width: 350px;
+  margin: 0px 10px 0px 10px;
+  position: fixed;
+}
+
+.mobile-user-detail-container {
+  width: calc(100% - 20px);
+  margin: 0 10px 10px 10px;
+}
+
+.user-detail-pass-container {
+  display: inline-block;
+  width: calc(100% - 380px);
+  margin-left: 380px;
+}
+
+.mobile-user-detail-pass-container {
+  width: calc(100% - 20px);
+  margin: 10px;
+}
+
+.user-detail-box-label {
+  color: #7e7e7e;
+  margin-bottom: 5px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.user-detail-bg {
+  background-color: black;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.user-detail-title {
+  font-size: 26px;
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+
+.user-detail-label {
+  color: #7e7e7e;
+}
+
+.user-detail-val {
+  margin-top: -10px;
+}
+
+.user-detail-checkbox {
+  display: inline-block;
+  width: 10px;
+  padding-right: 20px;
+  margin: 10px;
+}
+
+.user-detail-del-text {
+  display: inline-block;
+}
+
+.add-pass-btn {
+  width: 100%;
+  margin: 0;
+}
+
+.error-user-detail {
+  border: 1px solid;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle-user-detail {
+  display: inline;
+}
+.error-text-user-detail {
+  display: inline;
+}

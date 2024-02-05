@@ -1,0 +1,38 @@
+.catalog-desktop {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar {
+  width: calc(100% - 80px);
+  display: inline-block;
+}
+
+.add-user {
+  width: 40px;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.text {
+  margin: 10px;
+}
+
+.error-catalog {
+  border: 1px solid;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle-history-catalog {
+  display: inline;
+}
+.error-text-history-catalog {
+  display: inline;
+}

@@ -1,0 +1,22 @@
+.error-register {
+  border: 1px solid;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle-register {
+  display: inline;
+}
+.error-text-register {
+  display: inline;
+}
+/*             style={{ width: '200px', marginLeft: 'auto', marginRight: 'auto' }}
+ */

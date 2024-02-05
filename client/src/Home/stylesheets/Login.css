@@ -1,0 +1,99 @@
+/* The container <div> - needed to position the dropup content */
+.dropup {
+  position: fixed;
+  display: inline-block;
+  bottom: 30px;
+  left: 0;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-content p {
+  color: black;
+  padding: 12px 16px;
+  font-size: xx-small;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {
+  background-color: white;
+}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropbtn {
+  background: #000000;
+  color: #7e7e7e;
+  padding: 10px;
+  position: fixed;
+  border-radius: 0px 20px 0px 0px;
+  bottom: 0;
+  left: 0;
+}
+.text {
+  text-align: center;
+}
+.login-btn {
+  margin-top: 40px;
+}
+.eye-icon {
+  float: right;
+  margin-top: -33px;
+  color: #7e7e7e;
+}
+.field-container {
+  width: 200px;
+}
+.password-field {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.field-icon {
+  color: #7e7e7e;
+}
+.password-field-icon {
+  margin-left: -5px;
+  color: #7e7e7e;
+}
+.login-input {
+  margin-top: -24px;
+  padding-left: 30px;
+  width: 165px;
+}
+
+.error-login {
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px solid;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle-login {
+  display: inline;
+}
+.error-text-login {
+  display: inline;
+}

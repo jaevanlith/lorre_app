@@ -1,0 +1,164 @@
+.checkin-tool-container{
+  background-color: black;
+  width: 90%;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.status-label {
+  color: #7e7e7e;
+  margin-left: 5%;
+  font-size: 20px;
+  margin-bottom: -5px;
+  margin-top:-5px;
+}
+
+.manipulator-label {
+  color: #7e7e7e;
+  margin-left: 5%;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.scan-label {
+  color: #7e7e7e;
+  margin-left: 5%;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.status-container {
+  width: 90%;
+  margin: 10px auto 10px auto;
+  background-color: #a1a1a1;
+  border-radius: 15px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.status-open-container {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.status-closed-container {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.status-icon {
+  display: inline-block;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.status-text {
+  position: relative;
+  top: -3px;
+  margin: 10px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.disabled {
+  color: #7e7e7e;
+  background-color: #a1a1a1;
+}
+
+.enabled-close {
+  color: white;
+  background: #db4747;
+}
+
+.enabled-open {
+  color: white;
+  background-color:  #0ec04a;
+}
+
+.close-warning {
+  width: 90%;
+  background-color: #ff7e77;
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px auto 10px auto;
+  border-radius: 3px;
+}
+
+.close-warning-icon {
+  margin: 10px;
+  color: white;
+}
+
+.close-warning-text {
+  margin-top: -5px;
+  color: white;
+}
+
+.warning-cancel-btn {
+  width: calc(50% - 20px);
+  display: inline-block;
+  border: #db4747 solid 3px;
+  background: #ff7e77;
+}
+
+.warning-ok-btn {
+  width: calc(50% - 20px);
+  display: inline-block;
+  border: #db4747 solid 3px;
+  background: #db4747;
+}
+
+.scan-container {
+  margin-bottom: 20px;
+}
+
+.scan-btn {
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  border-radius: 0 0 3px 3px;
+}
+
+.qr-icon {
+  display: inline-block;
+  font-size: 30px;
+  margin: 0;
+}
+
+.scan-text {
+  position: relative;
+  top: -3px;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.scan-fail-msg {
+  background: #db4747;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  padding: 20px;
+}
+
+.scan-success-msg {
+  background:  #0ec04a;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  padding: 20px;
+}
+
+.scan-msg-text {
+  font-size: 24px;
+}
+
+.qr-reader-container {
+  margin-top: -10px;
+}

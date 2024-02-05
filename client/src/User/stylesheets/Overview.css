@@ -1,0 +1,37 @@
+.buy-pass-btn {
+  width: calc(100% - 20px);
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.overview-message-container {
+  background-color: black;
+  border-radius: 2px;
+  padding: 15px;
+  margin-top: 15px;
+  width: calc(100% - 50px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.overview-message {
+  font-size: 18px;
+  text-align: center;
+}
+.error {
+  border: 1px solid;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle {
+  display: inline;
+}
+.error-text {
+  display: inline;
+}

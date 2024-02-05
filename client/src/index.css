@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Louis George Cafe';
+  src: url('./resources/font/LouisGeorgeCafe.eot');
+  src: url('./resources/font/LouisGeorgeCafe.eot?#iefix') format('embedded-opentype'),
+  url('./resources/font/LouisGeorgeCafe.woff2') format('woff2'),
+  url('./resources/font/LouisGeorgeCafe.woff') format('woff'),
+  url('./resources/font/LouisGeorgeCafe.ttf') format('truetype'),
+  url('./resources/font/LouisGeorgeCafe.svg#LouisGeorgeCafe') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-size: 100%;
+  font-family: 'Louis George Cafe';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, #2E2E2E, #181818);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  min-width: 200px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #db4747;
+  background-color: transparent;
+  color: #7e7e7e;
+  display: block;
+  width: 200px;
+  margin: 10px;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #e98f47;
+}
+
+button {background-image: linear-gradient(to right, #db4747 0%, #e98f47  51%, #db4747  100%)}
+button {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 2px;
+  display: block;
+  border-style: none;
+  width: 200px;
+}
+
+button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  color: #e98f47;
+  style: none;
+  text-decoration: none;
+}
+
+.btn-grad-border {
+  border-radius: 2px;
+  border: solid 2px transparent;
+  background-image: linear-gradient(to right, #db4747 0%, #e98f47  51%, #db4747  100%), linear-gradient(to right, #db4747 0%, #e98f47  51%, #db4747  100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #2E2E2E inset;
+}
+.small-title {
+  font-size: 18px;
+  margin: 10px;
+}
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-center {
+  text-align: center;
+}
+.mobile-width {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(0.4);
+}

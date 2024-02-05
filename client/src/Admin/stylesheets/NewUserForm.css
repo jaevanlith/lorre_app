@@ -1,0 +1,96 @@
+.mid {
+  text-align: center;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.back-newUser {
+  width: 36px;
+  float: left;
+}
+.password-field-container {
+  width: 230px;
+}
+.eye-icon {
+  float: right;
+  margin-top: -33px;
+  color: #7e7e7e;
+}
+.register-container {
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+select {
+  color: #7e7e7e;
+  border: none;
+  border-bottom: 1px solid #db4747;
+  background-color: transparent;
+  width: 220px;
+  padding: 5px;
+  margin: 10px;
+}
+option {
+  background-color: #181818;
+  color: white;
+}
+select:focus {
+  outline: none;
+  border-bottom: 1px solid #e98f47;
+}
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #2e2e2e;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #db4747;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #db4747;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #db4747;
+}
+.genders-container input {
+  width: auto;
+  display: inline;
+  margin-left: 10px;
+}
+.register-input {
+  width: 210px;
+}
+
+.error-newUser {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle-newUser {
+  display: inline;
+}
+.error-text-newUser {
+  display: inline;
+}

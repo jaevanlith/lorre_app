@@ -1,0 +1,47 @@
+.admin-pass-box {
+  background-color: black;
+  border-radius: 3px 3px 3px 3px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.admin-pass-title {
+  font-size: 24px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+.mod-pass-btn {
+  margin: 20px -20px -20px -20px;
+  width: calc(100% + 40px);
+  border-radius: 0 0 3px 3px;
+}
+
+.mod-pass-label {
+  color: #7e7e7e;
+}
+
+.mod-pass-input {
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+
+.mod-save-btn {
+  margin: 0 -20px 0 -20px;
+  width: calc(100% + 40px);
+  border-radius: 0;
+}
+
+.mod-cancel-btn {
+  margin: 3px -20px 0 -20px;
+  width: calc(100% + 40px);
+  border-radius: 0;
+}
+
+.mod-delete-btn {
+  margin: 3px -20px -20px -20px;
+  width: calc(100% + 40px);
+  border-radius: 0 0 3px 3px;
+}

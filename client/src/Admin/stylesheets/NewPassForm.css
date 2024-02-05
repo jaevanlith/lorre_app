@@ -1,0 +1,48 @@
+.center {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.center input {
+  margin-left: 0px;
+}
+.center button {
+  margin-left: 0px;
+}
+
+input[type='file']::-webkit-file-upload-button {
+  border: solid 2px transparent;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #db4747 0%, #e98f47 51%, #db4747 100%),
+    linear-gradient(to right, #db4747 0%, #e98f47 51%, #db4747 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #2e2e2e inset;
+  color: white;
+}
+
+.passes input {
+  width: auto;
+  display: inline;
+  padding-bottom: 5px;
+}
+.passes label {
+  margin: 10px;
+}
+.error-newPass {
+  border: 1px solid;
+  padding: 15px 10px 15px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.fa-exclamation-triangle:before {
+  padding-right: 5px;
+}
+.triangle-history-newPass {
+  display: inline;
+}
+.error-text-history-newPass {
+  display: inline;
+}
