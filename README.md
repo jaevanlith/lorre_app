@@ -2,8 +2,6 @@
 
 A check-in web app for a student discobar at Delft (Lorre). The app uses various libraries and packages listed below with some explanation and examples.
 
-## Server
-
 ## Table of Contents
 
 - [Features](#features)
